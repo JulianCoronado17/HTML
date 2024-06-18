@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="./caracteristicas_fisicas.html" method="get" target="_blank" autocomplete="on" novalidate>
+    Nombre:<input type="text"name=nombre placeholder="Ej:Julian" required>
+    Edad:<input type="number"name=age>
+    email: <input type="email"name="email">
+    contraseña: <input type="password" name="password"> <br>
+    genero:
+    <input type="radio"name=gen value="f">Femenino
+    <input type="radio"name=gen value="m">Maculino
+    <input type="radio"name=gen value="nb">No binario
+    <input type="radio"name=gen value="o">Otro <br>
+    
+    hobbies:
+    <input type="checkbox" value="l" name="hobbies">Leer
+    <input type="checkbox" value="n" name="hobbies">Nadar
+    <input type="checkbox" value="c" name="hobbies">Caminar 
+    <input type="checkbox" value="j" name="hobbies">Jugar
+    
+    fecha nacimiento:
+    <input type="date" name="fecha" min="2006-01-01"> <br>
+    biografia:
+    <textarea></textarea><br>
+    buscar:
+    <input type="search" id="search" name="search"> <br> 
+    telefono:
+    <input type="tel"><br>
+    oculto:
+    <input type="hidden" id="hidden"name="hidden"><br>
+    color:
+    <input type="color"><br>
+    <input type="submit">
+    </form>
+</body> 
