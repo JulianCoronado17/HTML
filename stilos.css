@@ -1,0 +1,23 @@
+h1{
+    color: rgb(163, 10, 10);
+}
+
+div{
+    color: orange;
+}
+
+html{
+    --background-color: rgb(148, 218, 154);
+
+}
+html{
+    color: rgb(10, 12, 124);
+
+}
+body{
+    background: var(--background-color);
+}
+
+p{
+    background-color: var(color);
+}
